@@ -1,11 +1,12 @@
 import React from 'react'
+import { Addtax } from '../AddTax'
 
 function Home() {
-  return (
-    <div>
-      <h1>This is home page.</h1>
-    </div>
-  )
+	return (
+		<div className='container px-10'>
+			<Addtax />
+		</div>
+	)
 }
 
 export default Home
