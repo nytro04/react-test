@@ -1,5 +1,5 @@
 import React from 'react'
-import { Addtax } from '../AddTax'
+import { Addtax } from '../components/Tax/AddTax'
 
 function Home() {
 	return (

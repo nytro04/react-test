@@ -5,12 +5,14 @@
 		"dev": "vite",
 		"build": "vite build",
 		"serve": "vite preview",
-    "svg": "svgr -d src/components/svgs src/assets/svgs"
+		"svg": "svgr -d src/components/svgs src/assets/svgs"
 	},
 	"dependencies": {
+		"formik": "^2.2.9",
 		"react": "^17.0.0",
 		"react-dom": "^17.0.0",
-		"react-router-dom": "^5.3.0"
+		"react-router-dom": "^5.3.0",
+		"yup": "^0.32.9"
 	},
 	"devDependencies": {
 		"@svgr/cli": "^5.5.0",
