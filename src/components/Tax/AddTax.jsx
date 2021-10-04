@@ -34,7 +34,7 @@ export const Addtax = () => {
 							<TextField type='text' name='name' id='name' />
 						</div>
 						<div className='relative col-span-1'>
-							<TextField type='text' name='name' id='name' />
+							<TextField type='text' name='rate' id='rate' />
 							<span className=''>
 								<Percentage className='absolute h-3 right-2 top-3' />
 							</span>

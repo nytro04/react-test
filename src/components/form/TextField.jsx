@@ -13,11 +13,11 @@ export const TextField = ({ label, ...props }) => {
 				{...props}
 				autoComplete='off'
 			/>
-			{/* <ErrorMessage
+			<ErrorMessage
 				component='div'
 				name={field.name}
 				className='text-red-500'
-			/> */}
+			/>
 		</div>
 	)
 }
